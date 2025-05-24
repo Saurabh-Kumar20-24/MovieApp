@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 60vw;
+}
+table, td, th{
+    padding: 4px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filter-section{
+    background-color: rgb(227, 221, 221);
+    padding: 10px;
+    margin: 10px 0px;
+    width: 60vw;
+}
+button{
+    /* height: 28px; */
+    margin: 10px 3px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
