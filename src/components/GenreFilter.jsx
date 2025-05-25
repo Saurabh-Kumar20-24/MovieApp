@@ -34,10 +34,12 @@ const GenreFilter = ({setMovie}) => {
   return (
     <div className='filter-section'>
       <h2>Filter by Genre</h2>
-      <div className='btn'>
+      <div className='genre-container'>
+         <div className='btn'>
         {genres.map((val,idx)=>(
             <button onClick={()=>handleClick(val)} key={idx}>{val}</button>
         ))}
+        </div>
       </div>
     </div>
   )

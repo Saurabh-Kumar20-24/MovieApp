@@ -35,4 +35,10 @@ button{
 .btn{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+/* .genre-container{
+    display: flex;
+    justify-content: space-between;
+} */
